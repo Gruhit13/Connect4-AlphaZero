@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  background-color: #66ff33; /* Green color for board */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Make cells circular */
+  margin: 5px;
+}
+
+.winning-cell {
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px rgba(0, 30, 255, 0.5);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(0, 21, 255, 1);
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  background-color: #66ff33; /* Green color for board */
+  width: 700px;
+  height: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 95px;
+  height: 90px;
+  border-radius: 50%; /* Make cells circular */
+  margin: 5px;
+}
+
+.winning-cell {
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px rgba(0, 4, 255, 0.5);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(0, 4, 255, 1);
+  }
+}
+
+.play-button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-button {
+  cursor: pointer;
+}
+
+.play-icon {
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  fill: #007bff; /* Adjust icon color */
+}
+
+.reload-button {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  cursor: pointer;
+}
+
+.reload-icon {
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  fill: #007bff;
+}
+
+.options-container {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust as needed */
+  transform: translateY(-50%);
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  background-color: #66ff33; /* Green color for board */
+  width: 700px;
+  height: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
