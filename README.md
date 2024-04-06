@@ -39,8 +39,3 @@ By combining the exploration and exploitation capabilities of MCTS with the pred
 To see the Connect4 agent in action, please refer to the accompanying video demonstration provided in the video. The video showcases the gameplay and highlights the performance of the AlphaZero-based agent.
 
 https://github.com/Gruhit13/Connect4-AlphaZero/assets/64111603/b056bc20-f152-4b9f-864b-6e93ec05acb8
-
-
-For detailed instructions on how to set up and run the Connect4 project, please refer to the project documentation and code files.
-
-**Note:** Make sure to acknowledge any relevant papers, libraries, or resources used in your project by including appropriate references in the `readme.md` file.
